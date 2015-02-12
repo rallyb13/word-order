@@ -8,7 +8,7 @@ describe("wordOrder", function() {
   });
 
   it("will return both words used in a phrase, once each in order of repetition", function() {
-    expect(wordOrder("oh my my")).to.eql(["my", "oh"]);
+    expect(wordOrder("duck duck goose")).to.eql(["duck", "goose"]);
   });
 
 });
